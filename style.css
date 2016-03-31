@@ -1,8 +1,13 @@
 body {
-    background-image: linear-gradient(180deg, white 0%, #fdfdfd 8%, #f7f7f7 26%, #fbfbfb 43%, white 50%, #f1f1f1 70%, #f1f1f1 100%);
-    background-repeat:  no-repeat;
     font-family: Muli;
     text-align: center;
+}
+.home-bg {
+    background-image: linear-gradient(180deg, white 0%, #fdfdfd 8%, #f7f7f7 26%, #fbfbfb 43%, white 50%, #f1f1f1 70%, #f1f1f1 100%);
+    background-repeat:  no-repeat;
+}
+.confirmation-bg {
+    background-color: #FBFBFB;
 }
 #wrapper {
     margin-left: auto;
@@ -26,6 +31,7 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: 400;
+    color: #3F3F3F;
     margin: 0px;
 }
 h3 {
@@ -84,7 +90,7 @@ h4 {
 #team h2 {
     color: #E2A212;
 }
-.container {
+#team .container {
     margin-top: 42px;
 }
 .emp-photos {
@@ -100,6 +106,13 @@ h4 {
 #contact {
     margin-top: 100px;
     padding-bottom: 70px;
+}
+#contact a {
+    text-decoration: underline;
+    color: #3F3F3F;
+}
+#contact a:hover {
+    color: #337ab7;   
 }
 #contact .label {
     color: #E2A212;
