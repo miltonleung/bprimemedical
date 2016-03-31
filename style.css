@@ -62,7 +62,7 @@ h4 {
 }
 #services .container .service-block-right h2{
     margin-top: 8px;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 #services .container .service-block-right h3 {
     margin-top: 40px;   
@@ -145,12 +145,18 @@ h4 {
 button {
     outline: none;
 }
-@media (min-width: 768px) and (max-width: 1999px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     #services .service-block-left {
         margin-bottom: 60px;
     }
     #team .container div {
         margin-bottom: 30px;
+    }
+}
+@media (min-width: 735px) and (max-width: 990px) {
+    #services .container .service-block-right h2 {
+        margin-top: 20px;
+        margin-bottom: 18px;
     }
 }
 @media (min-width: 1200px) {
