@@ -9,13 +9,27 @@ body {
 .confirmation-bg {
     background-color: #FBFBFB;
 }
+#headcontact {
+    margin-top: 10px;
+    margin-right: 5px;
+    top: 0px;
+    right: 0px;
+    color: #6D6D6D;
+}
+.contact-header-label {
+    color: #3D5686;
+}
+.contact-header-link {
+    text-decoration: none;
+    color: #6D6D6D;
+}
 #wrapper {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
 }
 #header {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #landing {
     margin-top: 20px;
@@ -96,6 +110,7 @@ h4 {
 .emp-photos {
     width: 156px;
     height: 156px;
+    border-radius: 50%;
 }
 .col-lg-15 {
     position: relative;
@@ -119,6 +134,9 @@ h4 {
     font-weight: 400px;
     font-size: 24px;
     padding: 0px;
+}
+#contact #link-no-decoration {
+    text-decoration: none;
 }
 #contact #contact-info {
     font-size: 24px; 
@@ -159,10 +177,16 @@ h4 {
 button {
     outline: none;
 }
+@media (max-width: 990px) {
+    #services .service-block-right {
+        padding-left: 0px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
     #services .service-block-left {
         margin-bottom: 60px;
     }
+    
     #team .container div {
         margin-bottom: 30px;
     }
@@ -174,6 +198,16 @@ button {
     #services .container .service-block-right h2 {
         margin-top: 20px;
         margin-bottom: 18px;
+    }
+}
+@media (min-width: 1811px) {
+    #headcontact {
+        position: fixed;
+    }
+}
+@media (max-width: 1810px) {
+    #headcontact {
+        position: absolute;
     }
 }
 @media (min-width: 1200px) {
@@ -206,4 +240,10 @@ button {
         width: 1100px;
         
     }
+}
+@media only screen and (max-device-width: 360px) and (orientation: portrait) {
+    body { font-size: 200%; }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 720px)  and (orientation: portrait) {
+    body { font-size: 160%; }
 }
